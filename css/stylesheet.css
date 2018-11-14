@@ -1,0 +1,117 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End of Reset
+*/
+body {
+    margin: 0;
+    background-color: #E5E7E9;
+    font-family: 'Mate', serif;
+    
+}
+#logo{
+  top:0;
+  text-align:center;
+  padding: 0px 0px;
+  font-family: 'Mate', serif;
+
+}
+
+.navbar {
+  overflow:hidden;
+  background:#D7DBDD;
+  position: fixed;
+  top:0;
+  width: 100%;
+  text-align:center;
+}
+.navbar a{
+  color:black;
+  padding:  0px 20px;
+  text-decoration:none;
+}
+
+.navbar a:hover{
+  text-decoration:none;
+  font-size: 25px;
+  font-weight: bold;
+}
+.header{
+  text-align:justify;
+  margin-top:50px;
+  padding: 30px;
+  font-size:20px;
+}
+*{
+  box-sizing: border-box;
+}
+.imbox{
+  float: left;
+  width: 80.0%;
+  height:50.0%;
+  padding: 0px;
+  overflow:scroll;
+  background-color: #E5E7E9;
+}
+.shifttext{
+  float: left;
+}
+
+.pdf{
+  margin-top:0px;
+  padding:30px;
+}
+h1, h3{
+  text-align:center;
+  font-family: 'Playfair Display SC', serif;
+}
+.videocontainer{
+  width:80.0%;
+  height:50.0%;
+}
