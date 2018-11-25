@@ -1,9 +1,8 @@
 
 body {
-  width: auto;
-  margin:10% 10% 10% 10%;
-  background-color:#E5E7E9;
-  font-family:'Mate', serif;
+    margin: 0;
+    background-color: #E5E7E9;
+    font-family: 'Mate', serif;
 }
 #logo{
   top:0;
@@ -12,18 +11,18 @@ body {
   font-family:'Mate', serif;
 
 }
-
 .navbar {
-  overflow:hidden;
+   overflow:hidden;
   background:#D7DBDD;
-  position:fixed;
+  position: fixed;
   top:0;
-  width:100%;
+  width: 100%;
   text-align:center;
 }
 .navbar a{
+   float:center;
   color:black;
-  padding:0px 0px;
+  padding:0px 20px;
   text-decoration:none;
 }
 
@@ -31,7 +30,8 @@ body {
   text-decoration:none;
   font-size:25px;
   font-weight:bold;
-}6
+}
+
 #content{
   text-align:justify;
   margin-top:50px;
