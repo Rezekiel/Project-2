@@ -1,9 +1,9 @@
 
 body {
-    margin:0;
-    background-color:#E5E7E9;
-    font-family:'Mate', serif;
-    
+  width: auto;
+  margin:10% 10% 10% 10%;
+  background-color:#E5E7E9;
+  font-family:'Mate', serif;
 }
 #logo{
   top:0;
@@ -23,7 +23,7 @@ body {
 }
 .navbar a{
   color:black;
-  padding:0px 20px;
+  padding:0px 0px;
   text-decoration:none;
 }
 
