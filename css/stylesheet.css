@@ -50,11 +50,15 @@ body {
   background-color:#E5E7E9;
 }
 #pdf{
-  width:100%;
+  width:80%;
   height:750px;
   display:block;
-  border:100px;
+  border:0%;
   float:none;
+  padding:0px;
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom:5%;
 }
 h1, h3{
   text-align:left;
