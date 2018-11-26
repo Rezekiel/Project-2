@@ -62,7 +62,15 @@ h1, h3{
   text-align:left;
   font-family: 'Playfair Display SC', serif;
 }
+img{
+  float:right;
+  width:450px;
+  height:450px;
+}
 .videocontainer{
-  width:80%;
-  height:50.0%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+  height:450px;
 }
